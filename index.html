@@ -24,26 +24,26 @@
 
     <main>
         <div class="container">
-            
+
             <div class="contain">
                 <header>
                     <h1>to do list 2023</h1>
-                    <div id="add-task">
+                    <form id="add-task">
                         <input type="text"
                         name="new-task-input" 
                         id="add-task-input" 
                         placeholder="Write down your plan" />
-    
-                        <button id="add-task-button">
-                            Add Task <i class="fa-regular fa-square-plus"></i>
-                        </button>
-                    </div>
+                        <input 
+                        type="submit"
+                        id="add-task-submit" 
+                        value="Add task" />
+                    </form>
                 </header>
     
                 <section class="task-list">
-                    <h2>your tasks</h2>
+                    <h2>your tasks :</h2>
                     <div id="tasks">
-                        <div class="task">
+                        <!-- <div class="task">
                             <div class="content">
                                 <input 
                                     type="text" 
@@ -53,16 +53,16 @@
                             </div>
                             <div class="actions">
                                 <button class="edit">
-                                Edit <i class="fa-solid fa-pen-to-square"></i>
+                                <i class="fa-solid fa-pen-to-square"></i>
                                 </button>
                                 <button class="delete">
-                                Delete <i class="fa-solid fa-trash"></i> </button>
+                                <i class="fa-solid fa-trash"></i>
+                                </button>
                             </div>
-                        </div> 
+                        </div>  -->
                     </div>
                 </section>
             </div>
-           
         </div>
 
 
