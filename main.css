@@ -76,7 +76,7 @@ main .container .contain header form #add-task-input {
 }
 main .container .contain header form #add-task-submit {
   height: 50px;
-  padding: 0 10px;
+  padding: 0 15px;
   text-transform: uppercase;
   border-radius: 10px;
   font-size: 20px;
@@ -117,7 +117,7 @@ main .container .contain .task-list .task input {
 main .container .contain .task-list .task .actions {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 main .container .contain .task-list .task button {
   height: 50px;
