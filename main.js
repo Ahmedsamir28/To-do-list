@@ -5,6 +5,8 @@ window.addEventListener('load', () => {
 	const tasks = document.querySelector("#tasks");
 
 	addTask.addEventListener('submit', (e) => {
+
+        // prevent form  from submitting
 		e.preventDefault();
 
 		const task = addTaskInput.value;
